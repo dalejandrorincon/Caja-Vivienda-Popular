@@ -1,0 +1,108 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #1e6649;
+    font-weight: 300;
+}
+h3{
+    font-size: 18px;
+}
+.toolbar{
+    background-color: #166749;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.spacer {
+    flex: 1;
+}
+.toolbar img {
+    margin: 0 16px;
+  }
+.toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+.toolbar #twitter-logo:hover {
+    opacity: 0.6;
+}
+.banner-full{
+    width: 100%;
+}
+.contenido{
+    padding: 80px 0;
+}
+.cover-intro{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+/* */
+footer .wrapper{
+    width: 80%;
+    margin: auto;
+}
+footer {
+    background-color: #166749;
+    color: #ffffff;
+    margin-top: 8px;
+    line-height: 20px;
+    padding: 40px 0;
+  }
+
+footer h3{
+    font-style: italic;
+    text-align: center;
+}
+footer ul li{
+    margin-top: 10px;
+}
+/**/
+
+
+  .contenedor-boton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .boton {
+    border-radius: 4px;
+    border: 1px solid #166749;
+    color: #166749;
+    background-color: #fafafa;
+    height: 60px;
+    width: 60%;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+  .boton:hover{
+    background-color: #166749;
+    color: transparent;
+    background-image: url( 'assets/images/LOGO-CVP.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 767px) {
+    .cover-intro{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contenido{
+        padding: 50px 20px;
+    }
+}
